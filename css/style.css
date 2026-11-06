@@ -1,0 +1,152 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+/* OVERLAY */
+
+.overlay {
+
+    background: rgba(0, 0, 40, 0.75);
+
+    min-height: 100vh;
+
+}
+
+/* NAVBAR */
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background: rgba(0, 0, 40, 0.85);
+
+}
+
+/* LOGO */
+
+.logo {
+
+    color: gold;
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+}
+
+/* NAV LINKS */
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin-left: 25px;
+
+    font-weight: 500;
+
+}
+
+.nav-links a:hover {
+
+    color: gold;
+
+}
+
+/* HERO SECTION */
+
+.hero {
+
+    text-align: center;
+
+    margin-top: 150px;
+
+    color: white;
+
+}
+
+/* TITRE */
+
+.hero h1 {
+
+    font-size: 50px;
+
+    color: gold;
+
+    margin-bottom: 20px;
+
+}
+
+/* TEXTE */
+
+.hero p {
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+/* BOUTONS */
+
+.btn {
+
+    padding: 12px 25px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin: 10px;
+
+}
+
+/* BOUTON DORE */
+
+.btn-gold {
+
+    background: linear-gradient(to right, gold, #b8962e);
+
+    color: black;
+
+}
+
+/* BOUTON BLEU */
+
+.btn-outline {
+
+    border: 2px solid gold;
+
+    color: gold;
+
+}
+
+.btn-outline:hover {
+
+    background: gold;
+
+    color: black;
+
+}
